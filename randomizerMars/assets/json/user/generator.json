@@ -1,0 +1,56 @@
+{
+  "users" :
+  [2,
+  {
+  "id" : "",
+  "name" : "firstName",
+  "status" : [2,{
+    "id" : "",
+    "timestamp" : "int;1669000000000;1671000000000",
+    "level" : {
+      "id" : "",
+      "happy" : "int;0;100;",
+      "tired" : "int;0;100;",
+      "stressed" : "int;0;100;",
+      "angry" : "int;0;100;",
+      "frustrated" : "int;0;100;",
+      "scared" : "int;0;100;",
+      "surprised" : "int;0;100;",
+      "relieved" : "int;0;100;"
+    },
+    "vital" : {
+      "id" : "",
+      "organ_status" : "random;[\"GOOD\", \"OK\", \"FATAL\"]",
+      "blood_pressure" : "random;[\"120/80\", \"90/60\", \"140/90\", \"88/55\", \"143/91\", \"115/76\", \"123/86\", \"84/58\", \"138/89\", \"130/85\"]",
+      "temperature" : "float;35.5;38.5;1"
+    },
+    "thought" : {
+      "id" : "",
+      "text" : "random;[\"ThinkingAboutLife\",\"ThinkingAboutNature\",\"ThinkingAboutHappiness\",\"ThinkingAboutChoices\"]",
+      "img" : "random;[\"Life.png\",\"Nature.png\",\"Happiness.png\",\"Choices.png\"]"
+    },
+    "suggestion" : [2, {
+      "id" : "",
+      "category" : "random;[\"HEALTH\",\"ENERGY\",\"OTHER\"]",
+      "subCategory" : "random;[\"VITAMINS\",\"BLOOD\",\"SLEEP\",\"SECURITY\",\"MUSIC\",\"SOCIAL\"]",
+      "title" : "random;[\"You  are low on vitamin C\",\"You lack sunlight.\",\"You are low on iron.\",\"Lack of oxygen.\",\"Liver failure.\",\"Drink more water.\",\"WARNING: hypothermia!\"]",
+      "description" : "random;[\"Here  are some food types we recommend you to eat on your next meal.\",\"You lack sunlight and need to more go outside to prevent feeling bad.\",\"You need more iron in your blood, we suggest to eat more red meat.\",\"There seems to be a lack of oxygen in this room. Go to somewhere else as fast as possible.\",\"Your liver seems to be failing, go to the nearest hospital as soon as possible.\",\"You have not been drinking enough water the last few days. Drink at least 2 liters a day to prevent dehydration.\",\"Your core temperature is dangerously low, go to somewhere warm fast.\"]",
+      "term" : "random;[\"SHORT\",\"LONG\"]"
+    } ]
+  } ],
+  "settings" : {
+    "id" : "",
+    "do_Not_Disturb" : false,
+    "food_And_Drinks" : false,
+    "health" : false,
+    "energy" : false,
+    "others" : false
+  },
+  "familyMembers" : [2, {
+    "id" : "",
+    "name" : "firstName",
+    "toggleDataGathering" : false
+  } ]
+}]
+
+}
